@@ -1,6 +1,6 @@
 package arrays.concent;
 
-public class HeadQuartersOfITCompanies {
+public class HeadQuartersOfItCompanies {
     public static void main(String args[]) {
         boolean india = true, nonIndia = true;
         boolean bangalore = true, chennai = true, hyderabad = true, pune = true, mumbai = true,california=true,newJersey=true;
@@ -11,7 +11,7 @@ public class HeadQuartersOfITCompanies {
         String bangaloreHeadQuartersOfIT[] = {"Infosys", "Wipro", "Mindtree", "Aditi_Technologies"};
         String californiaHeadQuartersOfIT[]={"UST_Global","Zoho_Corporation"};
         String newJerseyHeadQuartersOfIT[]={"Cognizant","Collabera","IGATE"};
-        String company = "Microsoft";
+        String company = "Infosys";
         if (india) {
             if (bangalore) {
                 if (company.equals("Infosys")) {
